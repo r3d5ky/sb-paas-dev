@@ -39,14 +39,14 @@
 			"proxy_protocol": false,
 			"users": [
 				{
-					"name": "Misaka-blog",
+					"name": "random_username,
 					"uuid": "UUID",
 					"alterId": 0
 				}
 			],
 			"transport": {
 				"type": "ws",
-				"path": "VMESS_WSPATH"
+				"path": "VM_WS"
 			}
 		},
 		{
@@ -61,13 +61,13 @@
 			"proxy_protocol": false,
 			"users": [
 				{
-					"name": "Misaka-blog",
+					"name": "random_username",
 					"uuid": "UUID"
 				}
 			],
 			"transport": {
 				"type": "ws",
-				"path": "VLESS_WSPATH"
+				"path": "VL_WS"
 			}
 		},
 		{
@@ -82,13 +82,13 @@
 			"proxy_protocol": false,
 			"users": [
 				{
-					"name": "Misaka-blog",
+					"name": "random_username",
 					"password": "UUID"
 				}
 			],
 			"transport": {
 				"type": "ws",
-				"path": "TROJAN_WSPATH"
+				"path": "TR_WS"
 			}
 		}
 	],
@@ -115,7 +115,7 @@
 			],
 			"mtu": 1408,
 			"peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-			"private_key": "GAl2z55U2UzNU5FG+LW3kowK+BA/WGMi1dWYwx20pWk=",
+			"private_key": "WG_PRIV",
 			"server": "engage.cloudflareclient.com",
 			"server_port": 1701,
 			"system_interface": false
@@ -138,19 +138,6 @@
 					"ai.com"
 				],
 				"outbound": "wireguard-out"
-			},
-			{
-				"inbound": [
-					"vmess-in",
-					"vless-in",
-					"trojan-in"
-				],
-				"geosite": [
-					"cn",
-					"category-ads-all"
-				],
-				"geoip": "cn",
-				"outbound": "block"
 			}
 		],
 		"geoip": {
