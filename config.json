@@ -39,7 +39,7 @@
 			"proxy_protocol": false,
 			"users": [
 				{
-					"name": "random_username,
+					"name": "random_username",
 					"uuid": "UUID",
 					"alterId": 0
 				}
