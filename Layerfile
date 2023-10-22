@@ -1,9 +1,6 @@
 #This is an example webapp.io configuration for Docker!
 FROM vm/ubuntu:18.04
 SECRET ENV UUID
-SECRET ENV VM_WS
-SECRET ENV VL_WS
-SECRET ENV TR_WS
 SECRET ENV WG_PRIV
 
 # To note: Layerfiles create entire VMs, *not* containers!
